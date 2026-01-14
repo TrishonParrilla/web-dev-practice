@@ -1,0 +1,38 @@
+*{
+    margin:0;
+}
+
+header h1{
+    color:white;
+}
+
+header nav a{
+    list-style:none;
+    
+}
+
+header nav a {
+    text-decoration: none;
+    color:white;
+}
+
+.navbar-nav a {
+    padding:10px;
+    
+}
+
+.navbar-brand {
+    color:white;
+    
+}
+
+.bottom-nav-styles ul {
+    list-style: none;
+
+}
+
+.bottom-nav-styles a{
+    text-decoration: none;
+    color:white;
+}
+
