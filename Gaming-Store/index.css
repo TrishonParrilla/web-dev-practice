@@ -8,7 +8,7 @@
 body{
     background-color:#0D0D0D;
     font-family: "Montserrat", sans-serif;
-    display:Flex;
+    display:Flex;               /* flex the body so it has one big container*/
     flex-direction:column;
     
 }
@@ -18,7 +18,7 @@ html, body {
 }
                             
 main {   
-    flex: 1 0 auto; /* allows for main to have a nav footer */
+    flex: 1 0 auto; /* allows space for main to have a nav footer (research this more) */
 }
 
 h1, h2, h3, h4 .fa{
@@ -132,6 +132,26 @@ h1, h2, h3, h4 .fa{
     width:10%;
     background-color:#1874d0;
     border-radius:5px;
+    
+}
+
+/* gallery*/
+.main-brand-gallery {
+    display:flex;
+    flex-direction:column;
+    
+    
+    
+    margin:200px auto;
+}
+
+.gallery-row-container {
+    display:flex;
+    flex-direction:column;
+}
+.top-card-text{
+    text-align: center;
+    
     
 }
 
