@@ -8,7 +8,17 @@
 body{
     background-color:#0D0D0D;
     font-family: "Montserrat", sans-serif;
+    display:Flex;
+    flex-direction:column;
     
+}
+
+html, body {
+    height: 100%;
+}
+                            
+main {   
+    flex: 1 0 auto; /* allows for main to have a nav footer */
 }
 
 h1, h2, h3, h4 .fa{
@@ -166,9 +176,31 @@ h1, h2, h3, h4 .fa{
     border-radius:5px;
     border:0;
     margin-bottom:5px;
-    
     padding:5px;
     width:80%;
 }
 
+.footer-container{
+    background-color:#1874d0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-shrink:0;
+    
+    
 
+}
+
+.footer-list {
+    display:flex;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top:5px;
+    color:white;
+    gap:5px;
+    
+}
+
+.footer-headline {
+    
+}
