@@ -157,11 +157,33 @@ h1, h2, h3, h4 .fa{
 
 
 /* contact form */
+
+.card-contact {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    width:15%;
+    background-color:#1874d0;
+    border-radius:5px; 
+    padding-top:10px;
+}
+
+.contact-top-text {
+    margin-bottom:5px;
+}
+
+.main-brand-contact {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 200px auto;
+}
+
+
 .form-flex-container {
     display:flex;
     flex-direction: column;
     
-
 }
 
 /* contact form img */
@@ -175,6 +197,7 @@ h1, h2, h3, h4 .fa{
     flex-direction: column;
     width: 60%;
     margin: 10px auto;
+    
     
 }
 
@@ -197,7 +220,10 @@ h1, h2, h3, h4 .fa{
     border:0;
     margin-bottom:5px;
     padding:5px;
-    width:80%;
+    margin-left:30px;
+    width:50%;
+    background-color:#18d074;
+    color:white;
 }
 
 .footer-container{
@@ -206,6 +232,7 @@ h1, h2, h3, h4 .fa{
     flex-direction: row;
     justify-content: space-around;
     flex-shrink:0;
+    
     
     
 
@@ -220,6 +247,7 @@ h1, h2, h3, h4 .fa{
     gap:5px;
     
 }
+
 
 .footer-headline {
     
